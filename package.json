@@ -1,0 +1,19 @@
+{
+  "__file": "package.json",
+  "name": "lumen-trace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@coinbase/wallet-sdk": "latest",
+    "viem": "latest",
+
+    "base-node": "github:base/node",
+    "base-smart-wallet": "github:base/smart-wallet",
+    "base-brand-kit": "github:base/brand-kit",
+
+    "coinbase-x402": "github:coinbase/x402",
+    "coinbase-agentkit": "github:coinbase/agentkit"
+  }
+}
